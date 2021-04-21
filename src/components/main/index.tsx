@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import * as S from './styles';
+import { Home } from '../../pages';
 
 export default function Main() {
   return (
     <Router>
       <Switch>
         <Route path="/">
-          <S.Main>Olar</S.Main>;
+          <Home />
         </Route>
       </Switch>
     </Router>
