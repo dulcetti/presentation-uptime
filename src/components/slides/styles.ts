@@ -45,12 +45,10 @@ export const SlidesLink = styled(Link)`
   background-color: rgba(255, 255, 255, 0.6);
   border: 5px solid transparent;
   color: #333;
-  font-size: 28px;
-  font-weight: bold;
+  font: bold 28px 'noto-sans';
   margin: 0 20px;
   padding: 15px 40px;
   text-decoration: none;
-  text-transform: uppercase;
   transition: background-color 0.25s, border 0.25s;
 
   &:hover {
