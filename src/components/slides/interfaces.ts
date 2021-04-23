@@ -3,7 +3,7 @@ import { ReactElement } from 'react';
 export interface ISlides {
   background: string;
   children: ReactElement;
-  firstLink: ILinks;
+  firstLink?: ILinks;
   secondLink?: ILinks;
 }
 

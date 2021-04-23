@@ -8,7 +8,7 @@ export default function Slides({ background, children, firstLink, secondLink }: 
       <S.SlidesContent>
         {children}
         <S.SlidesFooter>
-          <S.SlidesLink to={firstLink.link}>{firstLink.label}</S.SlidesLink>
+          {firstLink && <S.SlidesLink to={firstLink.link}>{firstLink.label}</S.SlidesLink>}
           {secondLink && <S.SlidesLink to={secondLink.link}>{secondLink.label}</S.SlidesLink>}
         </S.SlidesFooter>
       </S.SlidesContent>
