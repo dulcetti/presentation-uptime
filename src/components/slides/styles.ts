@@ -39,6 +39,13 @@ export const SlidesFooter = styled.footer`
   display: flex;
   justify-content: center;
   padding: 50px;
+  opacity: 0;
+  transition: opacity 0.25s;
+
+  &.-show {
+    opacity: 1;
+    transition: opacity 0.25s;
+  }
 `;
 
 export const SlidesLink = styled(Link)`
