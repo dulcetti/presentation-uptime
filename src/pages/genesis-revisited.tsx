@@ -8,7 +8,7 @@ export default function GenesisRevisited() {
     link: '/where-are-the-humans',
   };
 
-  const linkArkOfNoah: ILinks = {
+  const linkNoahsArk: ILinks = {
     label: `Noah's Ark`,
     link: '/noahs-ark',
   };
@@ -17,7 +17,7 @@ export default function GenesisRevisited() {
     <>
       <Slides
         firstLink={linkWhereAreTheHumans}
-        secondLink={linkArkOfNoah}
+        secondLink={linkNoahsArk}
         background="/images/genesis-revisited.jpg">
         <Title text="Genesis revisited" isSubtitle={true} />
       </Slides>

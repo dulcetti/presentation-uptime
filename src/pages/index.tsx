@@ -1,5 +1,5 @@
 import Anunnaki from './anunnaki';
-import ArkOfNoah from './ark-of-noah';
+import NoahsArk from './noahs-ark';
 import Cover from './cover';
 import Finish from './finish';
 import GenesisRevisited from './genesis-revisited';
@@ -12,7 +12,7 @@ import WhereAreTheHumans from './where-are-the-humans';
 
 export {
   Anunnaki,
-  ArkOfNoah,
+  NoahsArk,
   Finish,
   GenesisRevisited,
   Gods,

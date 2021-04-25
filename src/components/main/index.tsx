@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import {
   Anunnaki,
-  ArkOfNoah,
+  NoahsArk,
   Finish,
   GenesisRevisited,
   Gods,
@@ -22,7 +22,7 @@ export default function Main() {
           <Anunnaki />
         </Route>
         <Route exact path="/noahs-ark">
-          <ArkOfNoah />
+          <NoahsArk />
         </Route>
         <Route exact path="/finish">
           <Finish />

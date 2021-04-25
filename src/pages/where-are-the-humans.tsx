@@ -8,7 +8,7 @@ export default function WhereAreTheHumans() {
     link: '/human-slaves',
   };
 
-  const linkArkOfNoah: ILinks = {
+  const linkNoahsArk: ILinks = {
     label: `The Noah's Ark`,
     link: '/noahs-ark',
   };
@@ -17,7 +17,7 @@ export default function WhereAreTheHumans() {
     <>
       <Slides
         firstLink={linkHumanSlaves}
-        secondLink={linkArkOfNoah}
+        secondLink={linkNoahsArk}
         background="/images/where-are-the-humans.jpg">
         <Title text="Where are the Humans?" isSubtitle={true} />
       </Slides>
