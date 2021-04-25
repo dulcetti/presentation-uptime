@@ -10,7 +10,7 @@ export default function WhereAreTheHumans() {
 
   const linkArkOfNoah: ILinks = {
     label: `The Noah's Ark`,
-    link: '/ark-of-noah',
+    link: '/noahs-ark',
   };
 
   return (

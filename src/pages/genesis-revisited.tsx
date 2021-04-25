@@ -10,7 +10,7 @@ export default function GenesisRevisited() {
 
   const linkArkOfNoah: ILinks = {
     label: `Noah's Ark`,
-    link: '/ark-of-noah',
+    link: '/noahs-ark',
   };
 
   return (

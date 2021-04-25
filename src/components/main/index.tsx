@@ -21,7 +21,7 @@ export default function Main() {
         <Route path="/anunnaki">
           <Anunnaki />
         </Route>
-        <Route exact path="/ark-of-noah">
+        <Route exact path="/noahs-ark">
           <ArkOfNoah />
         </Route>
         <Route exact path="/finish">
