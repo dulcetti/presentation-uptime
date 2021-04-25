@@ -1,5 +1,6 @@
-import Slides from '../components/slides';
 import { ILinks } from '../components/slides/interfaces';
+import List from '../components/list';
+import Slides from '../components/slides';
 import Title from '../components/title';
 
 export default function TheTwelfthPlanet() {
@@ -13,13 +14,18 @@ export default function TheTwelfthPlanet() {
     link: '/anunnaki',
   };
 
+  const items = ['The Book', 'Zecharia Sitchin'];
+
   return (
     <>
       <Slides
         firstLink={linkNibiru}
         secondLink={linkAnunnaki}
         background="/images/planests-lighthing.jpg">
-        <Title text="The Twelfth Planet" isSubtitle={true} />
+        <>
+          <Title text="The Twelfth Planet" isSubtitle={true} />
+          <List image="nibiru-planet.jpg" items={items} />
+        </>
       </Slides>
     </>
   );
