@@ -1,6 +1,7 @@
 import Slides from '../components/slides';
 import { ILinks } from '../components/slides/interfaces';
 import Title from '../components/title';
+import List from '../components/list/index';
 
 export default function Gods() {
   const linkWhereAreTheHumans: ILinks = {
@@ -13,13 +14,18 @@ export default function Gods() {
     link: '/genesis-revisited',
   };
 
+  const items = ['Planets or Gods?', 'Gods seeking the Earth nature'];
+
   return (
     <>
       <Slides
         firstLink={linkWhereAreTheHumans}
         secondLink={linkGenesisRevisited}
         background="/images/gods.jpg">
-        <Title text="Gods?" isSubtitle={true} />
+        <>
+          <Title text="Gods?" isSubtitle={true} />
+          <List items={items} />
+        </>
       </Slides>
     </>
   );
