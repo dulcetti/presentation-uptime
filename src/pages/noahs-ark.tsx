@@ -2,7 +2,7 @@ import Slides from '../components/slides';
 import { ILinks } from '../components/slides/interfaces';
 import Title from '../components/title';
 
-export default function ArkOfNoah() {
+export default function NoahsArk() {
   const linkFinish: ILinks = {
     label: 'Finish',
     link: '/finish',

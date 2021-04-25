@@ -10,7 +10,7 @@ export default function Cover() {
 
   return (
     <>
-      <Slides firstLink={link} background="/images/The-Twelfth-Planet.jpg">
+      <Slides firstLink={link} background="/images/cover.jpg">
         <Title text="The history about the Twelfth Planet" />
       </Slides>
     </>
