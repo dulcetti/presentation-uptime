@@ -21,7 +21,7 @@ export default function Tiamat() {
       <Slides
         firstLink={linkGenesisRevisited}
         secondLink={linkGods}
-        background="/images/tiamat.jpg">
+        background="/images/covers/tiamat.jpg">
         <>
           <Title text="Tiamat" isSubtitle={true} />
           <List items={items} />

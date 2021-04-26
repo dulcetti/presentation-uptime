@@ -21,7 +21,7 @@ export default function GenesisRevisited() {
       <Slides
         firstLink={linkWhereAreTheHumans}
         secondLink={linkNoahsArk}
-        background="/images/genesis-revisited.jpg">
+        background="/images/covers/genesis-revisited.jpg">
         <>
           <Title text="Genesis revisited" isSubtitle={true} />
           <List items={items} />

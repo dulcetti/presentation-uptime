@@ -21,7 +21,7 @@ export default function Gods() {
       <Slides
         firstLink={linkWhereAreTheHumans}
         secondLink={linkGenesisRevisited}
-        background="/images/gods.jpg">
+        background="/images/covers/gods.jpg">
         <>
           <Title text="Gods?" isSubtitle={true} />
           <List items={items} />

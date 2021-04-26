@@ -21,7 +21,7 @@ export default function Nibiru() {
       <Slides
         firstLink={linkTiamat}
         secondLink={linkGods}
-        background="/images/planet-destroyed.jpg">
+        background="/images/covers/planet-destroyed.jpg">
         <>
           <Title text="Nibiru/Marduk" isSubtitle={true} />
           <List items={items} />

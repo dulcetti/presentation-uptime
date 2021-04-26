@@ -13,7 +13,7 @@ export default function NoahsArk() {
 
   return (
     <>
-      <Slides firstLink={linkFinish} background="/images/noahs-ark.jpg">
+      <Slides firstLink={linkFinish} background="/images/covers/noahs-ark.jpg">
         <>
           <Title text="The Noah's Ark" isSubtitle={true} />
           <List items={items} />

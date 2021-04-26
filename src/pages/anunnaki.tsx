@@ -21,7 +21,7 @@ export default function Anunnaki() {
       <Slides
         firstLink={linkTiamat}
         secondLink={linkGenesisRevisited}
-        background="/images/anunnaki.jpg">
+        background="/images/covers/anunnaki.jpg">
         <>
           <Title text="The Anunnakis" isSubtitle={true} />
           <List items={items} />

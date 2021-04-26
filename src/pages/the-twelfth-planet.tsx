@@ -21,7 +21,7 @@ export default function TheTwelfthPlanet() {
       <Slides
         firstLink={linkNibiru}
         secondLink={linkAnunnaki}
-        background="/images/planests-lighthing.jpg">
+        background="/images/covers/planests-lighthing.jpg">
         <>
           <Title text="The Twelfth Planet" isSubtitle={true} />
           <List image="nibiru-planet.jpg" items={items} />
