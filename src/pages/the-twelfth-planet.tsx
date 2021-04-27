@@ -24,7 +24,7 @@ export default function TheTwelfthPlanet() {
         background="/images/covers/planests-lighthing.jpg">
         <>
           <Title text="The Twelfth Planet" isSubtitle={true} />
-          <List image="nibiru-planet.jpg" items={items} />
+          <List image="book-twelth.jpg" items={items} />
         </>
       </Slides>
     </>

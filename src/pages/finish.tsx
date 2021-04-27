@@ -10,7 +10,7 @@ export default function Finish() {
       <Slides background="/images/covers/finish.jpg">
         <>
           <Title text="We're alone here?" isSubtitle={true} />
-          <List items={items} image="dulcetti-meditando.png" />
+          <List image="dulcetti-meditando.png" items={items} />
         </>
       </Slides>
     </>

@@ -24,7 +24,7 @@ export default function Nibiru() {
         background="/images/covers/planet-destroyed.jpg">
         <>
           <Title text="Nibiru/Marduk" isSubtitle={true} />
-          <List items={items} />
+          <List image="nibiru-planet.jpg" items={items} />
         </>
       </Slides>
     </>

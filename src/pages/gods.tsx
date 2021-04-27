@@ -24,7 +24,7 @@ export default function Gods() {
         background="/images/covers/gods.jpg">
         <>
           <Title text="Gods?" isSubtitle={true} />
-          <List items={items} />
+          <List image="marduk-god.jpg" items={items} />
         </>
       </Slides>
     </>

@@ -16,7 +16,7 @@ export default function NoahsArk() {
       <Slides firstLink={linkFinish} background="/images/covers/noahs-ark.jpg">
         <>
           <Title text="The Noah's Ark" isSubtitle={true} />
-          <List items={items} />
+          <List image="giants-gods-earth.jpg" items={items} />
         </>
       </Slides>
     </>
