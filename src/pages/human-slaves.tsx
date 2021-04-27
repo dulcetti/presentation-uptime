@@ -13,10 +13,10 @@ export default function HumansSlaves() {
 
   return (
     <>
-      <Slides firstLink={linkFinish} background="/images/human-slaves.jpg">
+      <Slides firstLink={linkFinish} background="/images/covers/human-slaves.jpg">
         <>
           <Title text={`Human "Slaves"`} isSubtitle={true} />
-          <List items={items} />
+          <List image="slaves.png" items={items} />
         </>
       </Slides>
     </>

@@ -21,10 +21,10 @@ export default function WhereAreTheHumans() {
       <Slides
         firstLink={linkHumanSlaves}
         secondLink={linkNoahsArk}
-        background="/images/where-are-the-humans.jpg">
+        background="/images/covers/where-are-the-humans.jpg">
         <>
           <Title text="Where are the Humans?" isSubtitle={true} />
-          <List items={items} />
+          <List image="builded-by-gods.jpg" items={items} />
         </>
       </Slides>
     </>
