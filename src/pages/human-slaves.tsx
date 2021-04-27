@@ -16,7 +16,7 @@ export default function HumansSlaves() {
       <Slides firstLink={linkFinish} background="/images/covers/human-slaves.jpg">
         <>
           <Title text={`Human "Slaves"`} isSubtitle={true} />
-          <List items={items} />
+          <List image="slaves.png" items={items} />
         </>
       </Slides>
     </>

@@ -24,7 +24,7 @@ export default function WhereAreTheHumans() {
         background="/images/covers/where-are-the-humans.jpg">
         <>
           <Title text="Where are the Humans?" isSubtitle={true} />
-          <List items={items} />
+          <List image="builded-by-gods.jpg" items={items} />
         </>
       </Slides>
     </>
